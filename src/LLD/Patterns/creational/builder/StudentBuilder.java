@@ -60,7 +60,7 @@ public abstract class StudentBuilder {
     }
 
     abstract public StudentBuilder setSubject();
-    public void set_subject(List<String > subject){
+    protected void set_subject(List<String> subject){
         this.subject= subject;
     }
 

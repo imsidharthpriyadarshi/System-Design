@@ -15,7 +15,7 @@ public class LuxaryVehicleFactory implements VehicleFactoryInt {
         switch (vehicle_name.toLowerCase()){
             case "bmw":
                 return new Bmw();
-            case "mercidies":
+            case "mercedies":
                 return new Mercidies();
             case  "bently":
                 return  new Bently();

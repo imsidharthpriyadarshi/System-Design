@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class EmoloyeeDaoConcreate implements EmployeeDao{
+public abstract class EmoloyeeDaoConcreate implements EmployeeDao{
     private HashMap<String, List<EmployeeObj>> table;
     public EmoloyeeDaoConcreate(){
         table= new HashMap<>();
